@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Checker</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#333" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-4 text-center mb-3 mt-5">
+            Password Checker
+          </h1>
+          <form>
+            <div class="form-group container-fluid mb-5">
+              <input type="text" class="form-control" name="" id="password" />
+            </div>
+            <progress
+              max="100"
+              value="0"
+              id="strength"
+              class=" form-control mt-5 bg-secondary"
+            ></progress>
+            <h2 id="text"></h2>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center">Developed By Bankole Ahmed</p>
+    <script src="js/main.js"></script>
+    <script src="js/sw.js"></script>
+  </body>
+</html>
